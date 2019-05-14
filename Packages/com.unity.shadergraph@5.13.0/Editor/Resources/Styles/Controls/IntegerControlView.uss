@@ -1,0 +1,21 @@
+IntegerControlView {
+    flex-direction: row;
+    padding-left: 8;
+    padding-right: 8;
+    padding-top: 4;
+    padding-bottom: 4;
+}
+
+.unity-base-field {
+    width: 100;
+    flex-grow: 1;
+    margin-top: 1;
+    margin-bottom: 1;
+}
+
+.unity-base-field__input{
+    margin-left: 0;
+    margin-right: 0;
+    text-alignment: middle-left;
+}
+

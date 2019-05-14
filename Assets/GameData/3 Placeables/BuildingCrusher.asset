@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5237a06f1fc94dc39b3d85088e504cb, type: 3}
+  m_Name: BuildingCrusher
+  m_EditorClassIdentifier: 
+  pType: 0
+  associatedPrefab: {fileID: 5701704621631426976, guid: 36e93c435d1648a4c86d516057a9cbe2,
+    type: 3}
+  alternatePrefab: {fileID: 2803772846224482086, guid: 3d7094a1663ab0a44ab8e11c1defd922,
+    type: 3}
+  attackType: 0
+  targetType: 0
+  attackRatio: 2
+  damagePerAttack: 6
+  attackRange: 2.5
+  hitPoints: 18
+  speed: 1.5
+  lifeTime: 5
+  damagePerSecond: 1

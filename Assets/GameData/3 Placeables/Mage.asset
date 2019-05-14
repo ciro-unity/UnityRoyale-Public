@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5237a06f1fc94dc39b3d85088e504cb, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: 
+  pType: 0
+  associatedPrefab: {fileID: 1122871589, guid: ddbc89a2e5731354497399c2803d9354, type: 3}
+  alternatePrefab: {fileID: 8584991783828831444, guid: 4d4319dde2f198845ac34608a1013ffc,
+    type: 3}
+  attackType: 1
+  targetType: 1
+  attackRatio: 1.5
+  damagePerAttack: 3
+  attackRange: 4
+  hitPoints: 10
+  attackClip: {fileID: 8300000, guid: cad252f46a9c844e7acf14e02c3bceef, type: 3}
+  dieClip: {fileID: 8300000, guid: 5f8b90f2c99f643a4b29263f54e1dff1, type: 3}
+  speed: 3
+  lifeTime: 5
+  damagePerSecond: 1

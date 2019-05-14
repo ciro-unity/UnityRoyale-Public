@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5237a06f1fc94dc39b3d85088e504cb, type: 3}
+  m_Name: SmallRock
+  m_EditorClassIdentifier: 
+  pType: 1
+  associatedPrefab: {fileID: 3299912398919571464, guid: c69b8651000d54beba2977ba82be78e9,
+    type: 3}
+  alternatePrefab: {fileID: 0}
+  attackType: 0
+  targetType: 2
+  attackRatio: 0
+  damagePerAttack: 0
+  attackRange: 0
+  hitPoints: 0
+  attackClip: {fileID: 0}
+  dieClip: {fileID: 8300000, guid: f157b0f820c384ac1b6daae37535e7a3, type: 3}
+  speed: 0
+  lifeTime: 5
+  damagePerSecond: 0

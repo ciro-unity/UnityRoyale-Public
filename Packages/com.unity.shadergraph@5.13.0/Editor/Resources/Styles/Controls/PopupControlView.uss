@@ -1,0 +1,19 @@
+PopupControlView {
+    padding-top: 4;
+    padding-bottom: 4;
+    flex-direction: row;
+}
+
+PopupControlView > PopupField {
+    width: 80;
+    flex: 1;
+    margin-left: 0;
+    margin-right: 8;
+}
+
+PopupControlView > Label {
+    width: 94;
+    margin-left: 8;
+    margin-right: 8;
+    text-alignment: middle-left;
+}

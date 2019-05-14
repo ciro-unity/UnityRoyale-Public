@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Remote
+  m_EditorClassIdentifier: 
+  m_GroupName: Remote
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c0a24a5ceecba4908b51823061e9bc06
+  m_SerializeEntries:
+  - m_GUID: 3c5eb71ff2e974ce88c45317fe5ee720
+    m_Address: WarriorInnocuous
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 45c451515fa5541a78a078d0fd1da57f
+    m_Address: RockWarrior
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 57f207f6f745a403e92e5a37a755ec84
+    m_Address: TwoWarriors
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Base
+  - m_GUID: e27eea34851b44110a10d2b40b6c07c2
+    m_Address: Rock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 62fd5e501abef4d188f123698eca5c92, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 87d5a8b92ffca442e9c985e12799c883, type: 2}
+    - {fileID: 11400000, guid: 6837be158ef96469ebbd605b30aacc8b, type: 2}

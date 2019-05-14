@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5237a06f1fc94dc39b3d85088e504cb, type: 3}
+  m_Name: Archer
+  m_EditorClassIdentifier: 
+  pType: 0
+  associatedPrefab: {fileID: 5537164977549460556, guid: f7e6e31c5324d874db515c8ca4922190,
+    type: 3}
+  alternatePrefab: {fileID: 4506006686708116928, guid: 93ddf5fff26bcb642a6f1f94462963b2,
+    type: 3}
+  attackType: 1
+  targetType: 1
+  attackRatio: 1.5
+  damagePerAttack: 1
+  attackRange: 6
+  hitPoints: 8
+  attackClip: {fileID: 8300000, guid: 2061bf309662646429788b4bf485cb8d, type: 3}
+  dieClip: {fileID: 8300000, guid: e2250520821284e249e59eb36ae69c65, type: 3}
+  speed: 4
+  lifeTime: 5
+  damagePerSecond: 1

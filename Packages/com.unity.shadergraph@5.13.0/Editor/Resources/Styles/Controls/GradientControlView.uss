@@ -1,0 +1,22 @@
+GradientControlView > #gradientPanel {
+    flex-direction: row;
+}
+
+GradientControlView > #gradientPanel > GradientField {
+    margin-left: 8;
+    margin-right: 8;
+    width: 184;
+}
+
+.unity-base-field {
+	flex:1;
+    margin-top: 1;
+    margin-bottom: 1;
+}
+
+GradientControlView > #gradientPanel > Label {
+    width: 100;
+    margin-left: 8;
+    margin-right: 8;
+    text-alignment : middle-left;
+}

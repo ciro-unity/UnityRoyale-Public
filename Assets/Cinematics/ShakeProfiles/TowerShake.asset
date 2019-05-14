@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f59e54f2bfd184b9dd451a678d089b, type: 3}
+  m_Name: TowerShake
+  m_EditorClassIdentifier: 
+  PositionNoise:
+  - X:
+      Frequency: 10
+      Amplitude: 0.4
+      Constant: 0
+    Y:
+      Frequency: 10
+      Amplitude: 1
+      Constant: 0
+    Z:
+      Frequency: 0
+      Amplitude: 0
+      Constant: 0
+  - X:
+      Frequency: 20
+      Amplitude: 0.2
+      Constant: 0
+    Y:
+      Frequency: 20
+      Amplitude: 1
+      Constant: 0
+    Z:
+      Frequency: 0
+      Amplitude: 0
+      Constant: 0
+  OrientationNoise:
+  - X:
+      Frequency: 20
+      Amplitude: 0.1
+      Constant: 0
+    Y:
+      Frequency: 15
+      Amplitude: 0.1
+      Constant: 0
+    Z:
+      Frequency: 0
+      Amplitude: 0
+      Constant: 0
