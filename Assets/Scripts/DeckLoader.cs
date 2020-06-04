@@ -20,16 +20,14 @@ namespace UnityRoyale
             Addressables.LoadAssets<CardData>(targetDeck.labelsToInclude[0].labelString, null).Completed += OnResourcesRetrieved;
         }
 
-        //...
+        private void OnResourcesRetrieved(AsyncOperationHandle<IList<CardData>> obj)
+        {
+            targetDeck.CardsRetrieved((List<CardData>)obj.Result);
 
-		private void OnResourcesRetrieved(IAsyncOperation<IList<CardData>> obj)
-		{
-			targetDeck.CardsRetrieved((List<CardData>)obj.Result);
-
-            if(OnDeckLoaded != null)
+            if (OnDeckLoaded != null)
                 OnDeckLoaded();
 
             Destroy(this);
-		}
-	}
+        }
+    }
 }

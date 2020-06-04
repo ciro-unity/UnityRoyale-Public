@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -16,9 +17,9 @@ namespace UnityRoyale
 			refObject.Instantiate(Vector3.zero, Quaternion.identity, null).Completed += OnAssetInstantiated;
 		}
 
-		private void OnAssetInstantiated(IAsyncOperation<GameObject> asyncOp)
-		{
-			Debug.Log(asyncOp.Result.name + " loaded.");
-		}
-	}
+        private void OnAssetInstantiated(AsyncOperationHandle<GameObject> obj)
+        {
+            Debug.Log(obj.Result.name + " loaded.");
+        }
+    }
 }

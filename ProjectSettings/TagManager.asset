@@ -3,13 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Pivot
-  - Fire
-  - PivotArcher
-  - Target
-  - Archer
-  - Mage
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -19,12 +13,12 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
-  - Portraits
-  - PlayingField
-  - NonNavmeshed
-  - RedUnits
-  - BlueUnits
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

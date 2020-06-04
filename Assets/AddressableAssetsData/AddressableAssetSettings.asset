@@ -106,9 +106,13 @@ MonoBehaviour:
     - m_AssemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       m_ClassName: UnityEditor.AddressableAssets.Settings.GroupSchemas.ContentUpdateGroupSchema
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: f3e22fd08abb44ff38ab52d053c0f6aa, type: 2}
   m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
   m_ActivePlayerDataBuilderIndex: 3
-  m_ActivePlayModeDataBuilderIndex: 0
   m_DataBuilders:
   - {fileID: 11400000, guid: 1a55000a6f6da4f88bccad1c9ea0d099, type: 2}
   - {fileID: 11400000, guid: bfa229722bbf64355979bf619787f1d3, type: 2}
