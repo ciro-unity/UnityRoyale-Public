@@ -17,12 +17,10 @@ namespace UnityRoyale
         public void LoadDeck(DeckData deckToLoad)
         {
             targetDeck = deckToLoad;
-            Addressables.LoadAssets<CardData>(targetDeck.labelsToInclude[0].labelString, null).Completed += OnResourcesRetrieved;
+            Addressables.LoadAssetsAsync<CardData>(targetDeck.labelsToInclude[0].labelString, null).Completed += OnResourcesRetrieved;
         }
 
-        //...
-
-		private void OnResourcesRetrieved(IAsyncOperation<IList<CardData>> obj)
+		private void OnResourcesRetrieved(AsyncOperationHandle<IList<CardData>> obj)
 		{
 			targetDeck.CardsRetrieved((List<CardData>)obj.Result);
 

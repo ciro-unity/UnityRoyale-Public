@@ -13,7 +13,14 @@ MonoBehaviour:
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
   m_DefaultGroup: 151328d13c16947b8b2df2d555312652
+  m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
+  m_BundleLocalCatalog: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_maxConcurrentWebRequests: 500
+  m_ContiguousBundles: 0
   m_RemoteCatalogBuildPath:
     m_Id: 01d5a54ce7c8f4e6fb012b4231c0e6b9
   m_RemoteCatalogLoadPath:
@@ -37,11 +44,11 @@ MonoBehaviour:
       - m_Id: 8a6a19676e1b64ee9b388011d7c59596
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 1664b6053a27a4ac5bbc7846a27f09f1
-        m_Value: Assets/StreamingAssets/aa/[BuildTarget]
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
       - m_Id: dba6ad3240f6c432c9ec347abe95130a
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: 01d5a54ce7c8f4e6fb012b4231c0e6b9
-        m_Value: Assets/StreamingAssets/aa/[BuildTarget]
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
       - m_Id: 18d330823692a436dad1d1a4529a9d5e
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
     - m_InheritedParent: 
@@ -51,7 +58,7 @@ MonoBehaviour:
       - m_Id: 8a6a19676e1b64ee9b388011d7c59596
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 1664b6053a27a4ac5bbc7846a27f09f1
-        m_Value: Assets/StreamingAssets/aa/[BuildTarget]
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: dba6ad3240f6c432c9ec347abe95130a
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: 01d5a54ce7c8f4e6fb012b4231c0e6b9
@@ -65,7 +72,7 @@ MonoBehaviour:
       - m_Id: 8a6a19676e1b64ee9b388011d7c59596
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 1664b6053a27a4ac5bbc7846a27f09f1
-        m_Value: ServerData/[Android]
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: dba6ad3240f6c432c9ec347abe95130a
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
       - m_Id: 01d5a54ce7c8f4e6fb012b4231c0e6b9
@@ -96,19 +103,14 @@ MonoBehaviour:
     - HalloweenEvent
     - WinterEvent
     - AI
-  m_SchemaTemplates:
-  - m_DisplayName: Packed Assets
-    m_Description: Pack assets into asset bundles.
-    m_SchemaTypes:
-    - m_AssemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      m_ClassName: UnityEditor.AddressableAssets.Settings.GroupSchemas.BundledAssetGroupSchema
-    - m_AssemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      m_ClassName: UnityEditor.AddressableAssets.Settings.GroupSchemas.ContentUpdateGroupSchema
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 920d7b19a8ee74944b24c3a8c29934a9, type: 2}
   m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
   m_ActivePlayerDataBuilderIndex: 3
-  m_ActivePlayModeDataBuilderIndex: 0
   m_DataBuilders:
   - {fileID: 11400000, guid: 1a55000a6f6da4f88bccad1c9ea0d099, type: 2}
   - {fileID: 11400000, guid: bfa229722bbf64355979bf619787f1d3, type: 2}
@@ -127,7 +129,7 @@ MonoBehaviour:
           m_Key: HostingServicePort
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.String
-          m_Data: Assets/StreamingAssets/aa/Android
+          m_Data: Library/com.unity.addressables/aa/Windows/StandaloneWindows64;Assets/StreamingAssets/aa/StandaloneWindows64
           m_Key: ContentRoot
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Boolean
