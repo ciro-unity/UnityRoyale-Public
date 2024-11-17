@@ -21,3 +21,21 @@ The following packages were updated:
   com.unity.timeline from version 1.0.0 to 1.4.6
 The following packages were removed:
   com.unity.package-manager-ui@2.1.2
+
+=== Sun Nov 17 17:18:19 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ai.navigation@1.1.5
+The following packages were updated:
+  com.unity.addressables from version 1.16.19 to 1.22.2
+  com.unity.cinemachine from version 2.5.0 to 2.10.1
+  com.unity.ide.rider from version 2.0.7 to 3.0.31
+  com.unity.ide.visualstudio from version 2.0.7 to 2.0.22
+  com.unity.ide.vscode from version 1.2.3 to 1.2.5
+  com.unity.render-pipelines.universal from version 10.3.2 to 14.0.11
+  com.unity.test-framework from version 1.1.22 to 1.1.33
+  com.unity.textmeshpro from version 3.0.1 to 3.0.6
+  com.unity.timeline from version 1.4.6 to 1.7.6

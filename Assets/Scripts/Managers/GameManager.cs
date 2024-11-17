@@ -13,7 +13,7 @@ namespace UnityRoyale
 		public bool autoStart = false;
 
 		[Header("Public References")]
-        public NavMeshSurface navMesh;
+        public Unity.AI.Navigation.NavMeshSurface navMesh;
 		public GameObject playersCastle, opponentCastle;
 		public GameObject introTimeline;
         public PlaceableData castlePData;
