@@ -13,7 +13,11 @@ namespace UnityRoyale
 		public bool autoStart = false;
 
 		[Header("Public References")]
-        public NavMeshSurface navMesh;
+        //Unity upgraded legacy Unity.AI.Navigation to UnityEngine.AI which both includes definition of NavMeshSurface, resulted to confuse.
+        //For Unity 2022+, if you don't remove the legacy navigation system, then you may explicitly declare using the lagacy NavMeshSurface
+        //and keep everything other unchanged.
+        public Unity.AI.Navigation.NavMeshSurface navMesh;
+        //---------------------------------------------------------------------------------------------------------------------------------
 		public GameObject playersCastle, opponentCastle;
 		public GameObject introTimeline;
         public PlaceableData castlePData;
